@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Doceria Doce Vida</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Resumo da Compra</h1>
+
+    <div id="checkout-items" class="checkout-items">
+      <!-- Itens do carrinho serão inseridos aqui pelo JavaScript (através do checkout.js) -->
+    </div>
+
+    <div class="checkout-total text-right">
+      <h4>Total: <span id="checkout-total">R$ 0.00</span></h4>
+    </div>
+
+    <div class="text-center mt-4">
+      <button class="btn btn-secondary btn-lg" onclick="window.location.href = '/'">Voltar ao Menu</button>
+      <button class="btn btn-primary btn-lg" onclick="finalizaCompra()">Finalizar Compra</button>
+    </div>
+  </div>
+
+  <script src="js/checkout.js"></script>
+</body>
+</html>
