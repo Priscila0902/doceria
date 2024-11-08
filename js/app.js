@@ -197,7 +197,7 @@ const removeItemCarrinho = (itemId) => {
 
 // Função para redirecionar para a página de checkout
 const irParaCheckout = () => {
-  window.location.href = "/checkout.html"; // Redireciona para a página de checkout
+  window.location.href = "checkout.html"; // Redireciona para a página de checkout
 }
 
 // Fechar o dropdown se clicar fora dele
