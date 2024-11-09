@@ -31,7 +31,7 @@ const carregaItemsPagamento = () => {
   const finalizaCompra = () => {
     alert("Compra finalizada com sucesso!"); // Exibe alerta na tela
     localStorage.removeItem('cart'); // Limpa o carrinho após a compra
-    window.location.href = "/"; // Redireciona para a página inicial
+    window.location.href = "/doceria/"; // Redireciona para a página inicial
   }
   
   // Carregar os itens do carrinho ao carregar a página
